@@ -268,13 +268,14 @@
         flex-direction: column;
         margin:0px;
         border: 0px;
+        margin-top: 15px;
     }
     #menu a{
         height: 50px;
         align-items: center;
     }
     #principal button{
-        width: 100%;
+        width: 95%;
         margin:0px;
         margin-bottom: 15px;
     }
@@ -298,6 +299,17 @@
 
     .checkbox-itens label{
         font-size: 17px;
+    }
+
+    /*Footer*/
+
+    footer .linha1{
+        flex-direction: column;
+    }
+
+    footer .endereco{
+        width: 95%;
+        margin-bottom: 20px;
     }
 
 }
